@@ -2,11 +2,12 @@
 
 ## 🔹 Step 1: First Normal Form (1NF)
 
-**Requirements:**
+**Requirements:** 
 - Each table should have a primary key
 - Each field should contain only atomic value(no repeating group or array).
 
-**Result:**
+**Result:** 
+
 ✅ All tables have unique primary keys (e.g., `user_id`, `property_id`, `booking_id`).
 ✅ All attributes contain atomic values (e.g., `first_name`, `email`, `location`, etc.).
 
@@ -19,6 +20,7 @@
 - All non-key attributes must be fully functionally dependent on the primary key.
 
 **Analysis:**
+
 ✅ All tables have simple primary keys (not composite).
 ✅ All attributes in each table are fully dependent on their table's primary key.
 
