@@ -29,7 +29,7 @@ SELECT
     u.first_name AS reviewer_first_name,
     u.last_name AS review_last_name
 FROM
-    property p
+    Property p
 LEFT JOIN
     Review r ON p.property_id = r.property_id
 LEFT JOIN

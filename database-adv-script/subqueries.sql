@@ -5,7 +5,7 @@ SELECT
     p.location,
     p.price_per_night
 FROM
-    property p
+    Property p
 WHERE 
     p.property_id IN (
         SELECT
@@ -18,7 +18,7 @@ WHERE
             AVG(r.rating) > 4.0
     )
 ORDER BY
-    P.property_id;
+    p.property_id;
 
 -- 2. Correlated subquery: Find users who have made more than 3 bookings
 SELECT
